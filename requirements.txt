@@ -1,0 +1,5 @@
+# Azure Functions dependencies
+azure-functions>=1.18.0
+
+# HTTP client for making API requests  
+aiohttp>=3.8.0

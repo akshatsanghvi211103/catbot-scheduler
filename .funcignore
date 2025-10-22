@@ -1,0 +1,34 @@
+# Exclude from Azure Functions deployment
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Development files
+.git/
+.gitignore
+.vscode/
+*.md
+.env
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Local Azure Functions files
+local.settings.json
+.azure/
+.funcignore
+
+# Documentation and test files
+tests/
+docs/
+*.txt.bak
+*.zip
