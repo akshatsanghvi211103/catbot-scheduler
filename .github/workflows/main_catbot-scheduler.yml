@@ -72,4 +72,4 @@ jobs:
           app-name: 'catbot-scheduler'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_52C5C425185340A48356178822358149 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_504814D338444DFEA045B8B3FDF074C4 }}
